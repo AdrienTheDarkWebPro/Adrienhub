@@ -6,8 +6,14 @@ local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main Scripts")
 
 
-MainSection:NewButton("Admin Commands", "GIVES U ADMIN COMMANDS", function()
+MainSection:NewButton("Infinity Yield", "Infinity Yield FE", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+MainSection:NewButton("Homebrew", "Homebrew", function()
+    loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Syntaxx64/HomebrewAdmin/master/Main"))()
+end)
+MainSection:NewButton("Fate's Admin", "Fate's Admin", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
 end)
 
 
