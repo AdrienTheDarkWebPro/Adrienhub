@@ -1,0 +1,27 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Adrien's Universal Hub", "Synapse")
+
+-- MAIN
+local Main = Window:NewTab("Main")
+local MainSection = Main:NewSection("Main Scripts")
+
+
+MainSection:NewButton("Admin Commands", "GIVES U ADMIN COMMANDS", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+
+-- BROOKHAVEN
+local BROOKHAVEN = Window:NewTab("Brookhaven: RP")
+local BROOKHAVENSection = BROOKHAVEN:NewSection("Brookhaven: RP Scripts")
+
+
+BROOKHAVENSection:NewButton("Ice Hub", "Ice Hub Gui for Brookhaven", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMael7/NewIceHub/main/Brookhaven"))()
+end)
+BROOKHAVENSection:NewButton("David Hub [PC]", "David Hub Gui for Brookhaven", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/BrookhavenRoblox/main/loader.lua'))()
+end)
+BROOKHAVENSection:NewButton("David Hub [MOBILE]", "David Hub but on mobile for Brookhaven", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/BrookhavenRoblox/main/mobile.lua'))()
+end)
