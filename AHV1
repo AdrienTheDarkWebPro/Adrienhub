@@ -41,3 +41,13 @@ local PRISONLIFESection = PRISONLIFE:NewSection("Prison Life Scripts")
 PRISONLIFESection:NewButton("Prison Life OP Script", "OP Script", function()
     loadstring(game:HttpGet('https://pastebin.com/raw/VHnxgyBQ'))()
 end)
+
+
+-- CRIMINALITY
+local CRIMINALITY = Window:NewTab("Criminality")
+local CRIMINALITYSection = CRIMINALITY:NewSection("Criminality Scripts")
+
+
+CRIMINALITYSection:NewButton("FemWare", "FemWare0 for Criminality", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/JackHiggly/RobloxThings/main/FemWare0", true))()
+end)
